@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./scripts/bootstrap-4.6.2-dist/js/bootstrap.js"></script>
+    <script src="./scripts/jquery.js"></script>
+    <link rel="stylesheet" href="./scripts/bootstrap-4.6.2-dist/css/bootstrap.css"></link>
+
+</head>
+<body>
+
+    <script>
+        function calculate()
+        {
+            var a=parseInt(document.getElementById("n1").value);
+            var b=parseInt(document.getElementById("n2").value);
+
+            
+        }
+    </script>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-3"></div>
+            <div class="col-sm-12 col-md-6">
+    <form>
+        <div>Number1 : <input type="text" name="num1" id="n1" class="form-control"></div>
+        <div>Number2 : <input type="text" name="num2" id="n2" class="form-control"></div>
+        <br>
+        <div>
+        <button type="button" class="btn-success" id="add" onclick="calculate()">Add</button>
+        <button type="button" class="btn-danger" id="sub">Subtract</button>
+        <button  type="button" class="btn-primary" id="mul">Multiply</button>
+        <button type="button" class="btn-dark" id="div">Divide</button>
+        </div>
+    </form>
+    </div>
+    <div class="col-sm-12 col-md-3"></div>
+</body>
+</html>

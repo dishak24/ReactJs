@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./scripts/jquery.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            var name=$("#nm").val()
+            var add= $("#addr").val()
+            var choice =$("#choice").val()
+
+            
+            alert("name= "+ name)
+            alert("address= "+ add)
+            alert("Choice= "+ choice)
+
+        })
+    </script>
+</head>
+<body>
+    <div id="mydiv1">
+        Name : <input type="text" name="nm" id="nm"><br>
+
+        Address: <input type="text" name="addr" id="addr"><br>
+
+        Choice: <input type="text" name="choice" id="choice">
+
+        <button type="button" name="add" id="add">Add more</button>
+        <button type="button" name="submit" id="submit">submit data</button><br>
+       </div>
+       <div id="mydiv2"> 
+</body>
+</html>
